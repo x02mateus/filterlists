@@ -15,7 +15,7 @@ m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-co
 m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
 
 ! Hide chat window when viewing streams
-www.youtube.com###chat:remove()
+!www.youtube.com###chat:remove()
 
 ! Hide "Shorts remixing this video" shelf in the description
 www.youtube.com##ytd-reel-shelf-renderer
@@ -66,7 +66,7 @@ www.youtube.com##.ytd-comment-renderer #author-comment-badge
 
 ! Hide badges (such as "New") under video recommendations on the sidebar
 ! https://github.com/yokoffing/filterlists/pull/114
-www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
+!www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
 
 ! Hide "smartimation" animations
 ! Hide the rainbow-colored border animation around the subscribe button
